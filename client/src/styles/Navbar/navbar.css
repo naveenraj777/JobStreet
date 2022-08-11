@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Righteous&display=swap');
+
+.nav-links {
+    display: inline-block;
+    height: 40px;
+    justify-self: center;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Righteous', cursive;  
+    background-color:transparent;/*will change background-color of element */
+    color: black; /*will change color of text within the element */
+    /* vertical-align: middle; */
+    }
+    
+    .nav-links:hover {
+        border-radius: 10px;
+        transform: scale(1.1);
+    background-color:rgb(43, 191, 255); /*will change background-color of element on hover */
+    color: black; /*will change color of text within the element on hover */
+    }
+
+    .nav{
+        vertical-align: middle;
+    }

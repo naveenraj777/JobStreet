@@ -1,0 +1,64 @@
+.jobimg{
+    height:20vh;
+    width: 20vw;
+    border-radius: 20px;
+    opacity: 0.75;
+    border: 2px solid black;
+}
+
+.jobtab{
+    padding: 20px 20px;
+    width: 60%;
+}
+
+.jobimg:hover{
+    transform: scale(1.1);
+}
+
+.jobdiv{
+    
+    margin-top: 8%;
+}
+
+.jobform{
+    height: 420px;
+    width: 380px;
+    background-color: rgba(255,255,255,0.13);
+    position: relative;
+    margin-top: 25%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+.jobform *{
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+    color:black;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.title{
+    font-size: 18px;
+    font-family: 'Audiowide', cursive;  
+    border:2px solid black;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 10px;
+}
+
+.title1{
+    font-size: 18px;
+    font-family: 'Audiowide', cursive;  
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+   
+}

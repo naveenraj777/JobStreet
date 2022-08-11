@@ -1,0 +1,51 @@
+/* .gridout{
+    width:20vw;
+    display:grid;
+    grid-template-columns: auto auto ;
+}
+
+.grid{
+    /* width:fit-content; */
+    /* display: grid; */
+    
+/* .gridout{
+    display: flex;
+    margin-left:-5px;
+    margin-right:-5px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:ital,wght@0,400;1,300&family=Londrina+Solid:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:ital,wght@0,400;1,300&family=Londrina+Solid:wght@300&family=Ubuntu:ital@1&display=swap');
+.educationinfo{
+    width: 80%;
+    float: right;
+    font-family: 'Audiowide', cursive;
+    color:black;
+    letter-spacing: 0.25px;
+    outline: none;
+    border: none;
+    /* width: fit-content; */
+}
+.grid{
+    border-radius: 10px;
+    width: fit-content;
+    display: inline-block;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  margin-left: 40px;
+
+}
+
+.edutable{
+    border-radius: 10px;
+    /* font-family: 'Londrina Solid', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Londrina Solid', cursive; */
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
